@@ -1,0 +1,46 @@
+@import "tailwindcss";
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
+
+*{
+    box-sizing: border-box;
+}
+
+/* Custom scrollbar for your terminal */
+.terminal-scrollbar::-webkit-scrollbar {
+  width: 10px;
+}
+
+.terminal-scrollbar::-webkit-scrollbar-track {
+  background: #000; /* black */
+}
+
+.terminal-scrollbar::-webkit-scrollbar-thumb {
+  background: #00ff66; /* neon green */
+  border-radius: 8px;
+}
+
+.terminal-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #00cc55;
+}
+
+/* Firefox support */
+.terminal-scrollbar {
+  scrollbar-color: #00ff66 #000;
+  scrollbar-width: thin;
+}
+
+@keyframes fadeInSoft {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-soft {
+  animation: fadeInSoft 0.25s ease-out;
+}
