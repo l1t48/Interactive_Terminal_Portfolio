@@ -75,7 +75,7 @@ const TiltCard = () => {
       >
         {/* IMAGE */}
         <img
-          src= {pfp}
+          src={pfp}
           alt="Profile"
           style={{ transform: "translateZ(50px)" }}
           className="
@@ -122,7 +122,7 @@ const TiltCard = () => {
 
         {/* DOWNLOAD CV BUTTON */}
         <a
-          href="/src/assets/OP-CV-EN.pdf"
+          href="/OP-CV-EN.pdf"
           download
           style={{ transform: "translateZ(25px)" }}
           className="
