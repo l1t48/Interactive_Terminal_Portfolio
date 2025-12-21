@@ -123,7 +123,7 @@ const TiltCard = () => {
         {/* DOWNLOAD CV BUTTON */}
         <a
           href="/OP-CV-EN.pdf"
-          download
+          download="Adnan_Hamdan_CV.pdf"
           style={{ transform: "translateZ(25px)" }}
           className="
     mt-10 inline-block px-5 py-2 text-sm 
