@@ -1,72 +1,67 @@
 export const skills = [
     {
-        category: "Programming & Software Engineering",
+        category: "CS Fundamentals",
         items: [
-            "Front-end & Back-end development",
-            "API integration",
-            "Object-Oriented Programming (OOP)",
-            "GUI design principles"
+            "Discrete Math",
+            "CPU/Memory Mgmt",
+            "OS Fundamentals",
+            "Data Structures & Algos",
+            "Networking"
         ]
     },
     {
-        category: "Project & Process Management",
+        category: "Project Management",
         items: [
-            "Agile methodologies",
-            "Traditional methodologies"
-        ]
-    },
-    {
-        category: "Cybersecurity Knowledge",
-        items: [
-            "Cybersecurity fundamentals",
-            "Network analysis",
-            "Penetration testing principles"
-        ]
-    },
-    {
-        category: "Database Design",
-        items: [
-            "Database fundamentals",
-            "Database schema design",
-            "Optimization",
-            "Non-relational databases",
-            "Triggers"
-        ]
-    },
-    {
-        category: "Testing & Evaluation",
-        items: [
-            "Automated testing",
-            "Manual testing",
-            "Usability testing",
-            "Prototyping",
-            "Evaluation methodologies"
-        ]
-    },
-    {
-        category: "Computer Science Fundamentals",
-        items: [
-            "Data Structures and Algorithms (searching, sorting, pathfinding, optimization)",
-            "Networking Fundamentals",
-            "Operating System Fundamentals",
-            "CPU and Memory Management",
-            "Programming language theory",
-            "Discrete Mathematics"
+            "Agile/Scrum",
+            "Traditional Waterfall"
         ]
     },
     {
         category: "Machine Learning & AI",
         items: [
-            "ML fundamentals",
-            "ML programming with Python"
+            "ML Fundamentals",
+            "Python ML Programming",
         ]
     },
     {
-        category: "Other Knowledge Areas",
+        category: "Database Design",
         items: [
-            "Team collaboration",
-            "Mobile development (Android with Java)",
-            "Data Ethics"
+            "DB Fundamentals",
+            "Schema Design",
+            "SQL Concepts",
+            "NoSQL Concepts",
+        ]
+    },
+    {
+        category: "Software Engineering",
+        items: [
+            "OOP",
+            "GUI Principles",
+            "API Integration",
+            "Full-Stack Dev",
+        ]
+    },
+    {
+        category: "Testing & Evaluation",
+        items: [
+            "Manual Testing",
+            "Automated Testing",
+            "Usability Testing",
+            "Prototyping",
+        ]
+    },
+    {
+        category: "Cybersecurity",
+        items: [
+            "Security Fundamentals",
+        ]
+    },
+    {
+        category: "Other Areas",
+        items: [
+            "Data Ethics",
+            "Team Collaboration",
+            "Mobile Dev (Android/Java)"
         ]
     }
 ];

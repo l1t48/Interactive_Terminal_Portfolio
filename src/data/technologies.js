@@ -1,61 +1,53 @@
 export const technologies = [
   {
-    category: "Web Development",
+    category: "OS & Environments",
     items: [
-      "React",
-      "Node.js",
-      "REST APIs (creation & integration)",
-      "HTML",
-      "CSS",
-      "Tailwind",
-      "Bootstrap",
-      "JavaScript (JS)",
-      "Vue.js",
-      "PHP (with MySQL via phpMyAdmin)"
+      "Kali Linux",
+      "Ubuntu",
+      "Windows",
     ]
   },
+  {
+    category: "Web Development",
+    items: [
+      "HTML/CSS",
+      "Bootstrap",
+      "Tailwind CSS",
+      "Node.js",
+      "PHP",
+      "REST APIs",
+      "React",
+      "Vue.js",
+      "Angular"
+    ]
+  },
+
+  {
+    category: "Cybersecurity Tools",
+    items: [
+      "Wireshark",
+      "Nmap",
+      "Burp Suite",
+      "Metasploit"
+    ]
+  },
+
   {
     category: "Programming Languages",
     items: [
       "C",
-      "Python",
-      "Java (Android & desktop development)",
-      "C# (.NET, Windows Forms, XML, API interaction)",
+      ".NET/C#",
+      "Java",
       "JavaScript",
-      "PHP",
-      "Assembly (MIPS)"
+      "Python"
     ]
   },
-
   {
     category: "Databases & Storage",
     items: [
-      "MongoDB",
-      "MySQL (design, triggers, implementation)",
-      "NoSQL",
+      "Render",
       "Firebase",
-      "phpMyAdmin"
-    ]
-  },
-
-  {
-    category: "Operating Systems & Environments",
-    items: [
-      "Linux",
-      "Ubuntu",
-      "Kali Linux",
-      "Windows"
-    ]
-  },
-  {
-    category: "Cybersecurity & Networking",
-    items: [
-      "Nmap",
-      "Burp Suite",
-      "Wireshark",
-      "OWASP ZAP",
-      "Metasploit Framework",
-      "Ettercap"
+      "MongoDB"
     ]
   },
   {
