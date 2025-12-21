@@ -1,4 +1,7 @@
 import { useRef } from "react";
+import cvFile from "../assets/OP-CV-EN.pdf";
+
+
 import {
   motion,
   useMotionTemplate,
@@ -122,7 +125,7 @@ const TiltCard = () => {
 
         {/* DOWNLOAD CV BUTTON */}
         <a
-          href="/OP-CV-EN.pdf"
+          href={cvFile}
           download="Adnan_Hamdan_CV.pdf"
           style={{ transform: "translateZ(25px)" }}
           className="
