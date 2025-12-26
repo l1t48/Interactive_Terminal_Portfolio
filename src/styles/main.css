@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+body{
+  background-color: black;
+}
+
 /* Custom scrollbar for your terminal */
 .terminal-scrollbar::-webkit-scrollbar {
   width: 10px;
