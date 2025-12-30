@@ -16,6 +16,3 @@ A unique terminal-inspired personal portfolio showcasing projects, skills, and e
 ## Running the Project Locally
 - npm install
 - npm run dev
-
-## License 
-This project is licensed under the MIT License. See the LICENSE file for details.
