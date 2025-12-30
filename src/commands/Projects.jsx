@@ -3,7 +3,6 @@ import { softwareProjects, webProjects } from "../data/projects";
 function ProjectCard({ project }) {
   return (
     <div className="border border-green-500/40 rounded-lg p-3 bg-black/50">
-      {/* Title + is_public status */}
       <div className="flex items-center justify-between gap-2 mb-1">
         <span className="text-green-200 font-semibold">
           {project.title}
@@ -15,7 +14,6 @@ function ProjectCard({ project }) {
 
       <div className="flex flex-wrap items-center gap-2 mb-2 text-xs">
         {project.is_public ? (
-          /* Clickable Source Button */
           <a
             href={project.url}
             target="_blank"
@@ -25,7 +23,6 @@ function ProjectCard({ project }) {
             Source
           </a>
         ) : (
-          /* Unclickable/Disabled Source Button */
           <span className="px-2 py-0.5 rounded-full border border-gray-700 text-gray-600 cursor-not-allowed">
             Source
           </span>
@@ -43,12 +40,10 @@ function ProjectCard({ project }) {
         )}
       </div>
 
-      {/* Overview */}
       <p className="text-sm text-green-100 mb-2 leading-relaxed">
         {project.overview}
       </p>
 
-      {/* Tags */}
       <div className="flex flex-wrap gap-2 text-xs">
         {project.tags.map((tag) => (
           <span

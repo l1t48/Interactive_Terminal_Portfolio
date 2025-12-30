@@ -1,7 +1,6 @@
 import { useRef } from "react";
 import cvFile from "../assets/OP-CV-EN.pdf";
 
-
 import {
   motion,
   useMotionTemplate,
@@ -16,13 +15,10 @@ const HALF_ROTATION_RANGE = ROTATION_RANGE / 2;
 
 const TiltCard = () => {
   const ref = useRef(null);
-
   const x = useMotionValue(0);
   const y = useMotionValue(0);
-
   const xSpring = useSpring(x);
   const ySpring = useSpring(y);
-
   const transform = useMotionTemplate`rotateX(${xSpring}deg) rotateY(${ySpring}deg)`;
 
   const handleMouseMove = (e) => {
@@ -187,7 +183,6 @@ const TiltCard = () => {
 function Pfp() {
   return (
     <div className="relative flex h-full w-full items-center justify-center xl:mt-0 mt-10">
-      {/* subtle green glow in the background */}
       <div className="pointer-events-none absolute inset-0 bg-linear-to-br from-emerald-500/10 via-transparent to-lime-500/10 blur-3xl" />
       <TiltCard />
 

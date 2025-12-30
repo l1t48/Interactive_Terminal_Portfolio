@@ -1,4 +1,3 @@
-// TypewriterText.jsx
 import { useState, useEffect } from "react";
 
 function TypewriterText({
@@ -32,7 +31,6 @@ function TypewriterText({
       return () => clearTimeout(timeout);
     }
 
-    // Finished typing; restart if loop is enabled
     if (loop) {
       const timeout = setTimeout(() => {
         setIndex(0);
@@ -41,8 +39,6 @@ function TypewriterText({
 
       return () => clearTimeout(timeout);
     }
-
-    // If not looping and done, do nothing
   }, [index, text, speed, loop, delayBeforeRestart]);
 
   return (

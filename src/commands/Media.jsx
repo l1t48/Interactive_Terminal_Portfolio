@@ -1,5 +1,3 @@
-// src/commands/Media.jsx
-
 function Media() {
   return (
     <div className="mt-3 max-w-xl border border-green-500/60 rounded-lg p-4 bg-black/60 text-base">

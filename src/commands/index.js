@@ -1,4 +1,3 @@
-// src/commands/index.js
 import Help from "./Help";
 import About from "./About";
 import Experience from "./Experience";

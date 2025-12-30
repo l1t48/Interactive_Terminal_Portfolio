@@ -10,17 +10,16 @@ body{
   background-color: black;
 }
 
-/* Custom scrollbar for your terminal */
 .terminal-scrollbar::-webkit-scrollbar {
   width: 10px;
 }
 
 .terminal-scrollbar::-webkit-scrollbar-track {
-  background: #000; /* black */
+  background: #000; 
 }
 
 .terminal-scrollbar::-webkit-scrollbar-thumb {
-  background: #00ff66; /* neon green */
+  background: #00ff66;
   border-radius: 8px;
 }
 
@@ -28,7 +27,6 @@ body{
   background: #00cc55;
 }
 
-/* Firefox support */
 .terminal-scrollbar {
   scrollbar-color: #00ff66 #000;
   scrollbar-width: thin;
