@@ -35,7 +35,7 @@ function ProjectCard({ project }) {
             rel="noopener noreferrer"
             className="px-2 py-0.5 rounded-full border border-green-500/60 text-green-200 hover:bg-green-500/10 transition-colors"
           >
-            Live Demo
+            Demo
           </a>
         )}
       </div>

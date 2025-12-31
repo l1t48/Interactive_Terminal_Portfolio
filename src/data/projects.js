@@ -29,8 +29,8 @@ export const webProjects = [
     {
         title: "Ink & Insight",
         overview: "Full-stack web app with Angular, Bootstrap and ASP.NET featuring authentication, real-time updates with SignalR, and full CRUD functionality. Before running the server, read the frontend README on GitHub for important setup instructions.",
-        url: "https://github.com/l1t48/Test-frontend",
-        liveUrl: "https://test-frontend-u9b4.onrender.com/auth", 
+        url: "https://github.com/l1t48/InkAndInsight-Frontend",
+        liveUrl: "https://youtu.be/mmNIEWpjdbI", 
         tags: ["Angular", "TypeScript", ".NET", "Vanilla-JS", "Real-Time", "Full-Stack"],
         is_public: true,
     },
@@ -40,7 +40,7 @@ export const webProjects = [
         url: "https://github.com/l1t48/Interactive_Terminal_Portfolio",
         liveUrl: "https://interactive-terminal-portfolio.vercel.app",
         tags: ["React", "Vite", "CSS", "TailwindCSS", "Front-end", "SPA"],
-        is_public: false,
+        is_public: true,
     },
     {
         title: "Portfolio Website",
@@ -54,8 +54,9 @@ export const webProjects = [
         title: "EasyBank",
         overview: "Full-stack banking web app with React, Node.js, Express, and MongoDB featuring authentication, role-based access, transaction management, dashboards, and real-time updates.",
         url: "https://github.com/l1t48/EasyBank",
+        liveUrl: "https://youtu.be/b_tegAcSL_Y",
         tags: ["React", "Node.js", "Express", "MongoDB", "Full-Stack", "Real-Time"],
-        is_public: false,
+        is_public: true,
     },
 
 ];
