@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import cvFile from "../assets/OP-CV-EN.pdf";
+import cvFile from "../assets/Adnan_Hamdan_CV.pdf";
 
 import {
   motion,

@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-function TypewriterText({
+function useTypewriterTextEffect({
   text,
   speed = 60,
   className = "",
@@ -51,4 +51,4 @@ function TypewriterText({
   );
 }
 
-export default TypewriterText;
+export default useTypewriterTextEffect;
